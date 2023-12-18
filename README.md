@@ -44,23 +44,28 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
  ![image](https://github.com/GavinInSpace/ConfigActiveDirectory/assets/153689700/044288ae-27e1-451f-8866-0694a29ee2ce)
  
-  Now we can "next" through the rest of the selections and click install. Once the installation is complete we should restart the machine although this should happen automatically.
-
+  Now we can "next" through the rest of the selections and click install. Once the installation is complete we should restart the machine although this should happen automatically. Now that we have restarted our machine it is a Domain Controller and has Active directory installed.
 </p>
 <br />
 
+<h3>Creating Admin and user accounts in Active Directory</h3>
+
+![image](https://github.com/GavinInSpace/ConfigActiveDirectory/assets/153689700/3405c1d4-f74f-48c3-b911-c02e425f264f)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  We should now see that our Service Manager Dashboard has some new selections than we had before. To start configuring users we go to the "tools" tab and select Active Directory Users and Computers.
+
+![image](https://github.com/GavinInSpace/ConfigActiveDirectory/assets/153689700/b647a0ed-2035-451b-a455-13fdbb342189)
+
+  This is the Active Directory UI. From here we can see multiple different entries under our domain tab including our Users. From this UI we can create things called Organizational Units (essentially a folder) that we can use to seperate different users into different buckets. Such as creating an organizational unit called "EMPLOYEES" and populating it with workers. The pic below shows the same UI after creating two Organizational Units (_EMPLOYEES, _ADMINS).
+
+![image](https://github.com/GavinInSpace/ConfigActiveDirectory/assets/153689700/72b51a1d-1fe9-493e-a855-b3e3cc661bda)
+
+   From here we can go into our Organizational Units and create users as well as set their permissions. After creating the user, if we would like to make the user and admin we must go to the users permissions and add it to the Domain Admin group.
+
+![image](https://github.com/GavinInSpace/ConfigActiveDirectory/assets/153689700/3561f3bc-e426-47c0-a2de-79cdb2cdb3f0)
+
+     
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
