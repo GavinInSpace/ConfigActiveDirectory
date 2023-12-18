@@ -11,7 +11,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
@@ -22,8 +21,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Install Active Directory on Windows Server Domain Controller
 - Create an Admin account and a normal account
-- Join the domain as a client
-- Set up RDP for non admin clients on a client machine
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -32,7 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/GavinInSpace/ConfigActiveDirectory/assets/153689700/2287a2f7-8ad0-4da9-b6ae-078512ebac92)
 
 <p>
-  To begin installing Active Directory we must be on the windows server machine and we must have the Server Manager open on the Dashboard tab. This screen should show up by default when accessing the machine but can be started via the start menu. Then we click the add roles and features link which will bring up an add roles and features wizard. 
+  To begin installing Active Directory we must be on the windows server machine (this entire project is done on Microsoft Azure Virtual Machines) and we must have the Server Manager open on the Dashboard tab. This screen should show up by default when accessing the machine but can be started via the start menu. Then we click the add roles and features link which will bring up an add roles and features wizard. 
 
   ![image](https://github.com/GavinInSpace/ConfigActiveDirectory/assets/153689700/fc87e835-293f-48e4-b782-7ff7e3e196b7)
 
@@ -69,3 +66,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
+<h3>Summary</h3>
+<p>
+  This is all a very high level explanation and of course Active Directory has much more to it that what we have covered, but I feel this is a good introduction to the basics. To practice this I built two virtual machines on Microsoft Azure, making one a client and one a Domain Controller to practice it from both ends. To do this you must set your clients DNS IP to the static IP of the Domain Controller but I felt that was out of the scope of what I was trying to convey with this tutorial. Thank you for reading, as always it is much appreciated!
+</p>
