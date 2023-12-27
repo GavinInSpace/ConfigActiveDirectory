@@ -24,7 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Summary</h2>
 <p>
-  This is all a very high level explanation and of course Active Directory has much more to it that what we have covered, but I feel this is a good introduction to the basics. To practice this I built two virtual machines on Microsoft Azure, making one a client and one a Domain Controller to practice it from both ends. To do this you must set your clients DNS IP to the static IP of the Domain Controller but I felt that was out of the scope of what I was trying to convey with this particular tutorial. Thank you for reading, it is much appreciated!
+  This is all a very high level explanation and Active Directory has much more to it that what we are going to cover, but I feel this is a good introduction to the basics. To practice this I built two virtual machines on Microsoft Azure, making one a client and one a Domain Controller to practice it from both ends. To do this you must set your clients DNS IP to the static IP of the Domain Controller but I felt that was out of the scope of what I was trying to convey with this particular tutorial. Thank you for reading, it is much appreciated!
 </p>
 
 
